@@ -69,7 +69,7 @@ class TTLockAuthImplementation(
 class TTLockApi:
     """Provide TTLock authentication tied to an OAuth2 based config entry."""
 
-    BASE = "https://euapi.ttlock.com/v3/"
+    BASE = "https://cnapi.ttlock.com/v3/"
 
     def __init__(
         self,
